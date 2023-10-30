@@ -12,23 +12,16 @@ body {
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    color: #ffffff; 
 }
 
 .header h1 {
     display: inline-flex;
     font-size: 35px;
     background-color: rgb(1, 52, 52);
-    margin-inline-start: -5%;
+    margin-inline-start: -2%;
     padding: 15px;
     padding-left: 75px;
-    
-}
-.header h1 .seo {
-    color: #d9dcd6;
 }
 
 .header div  {
@@ -38,13 +31,13 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     flex-wrap: wrap;
-    text-decoration: underline;
+    text-align: right;
 }
 
 .header div ul li {
     display: inline-flex;
     margin-left: 25px;
-    flex-wrap: wrap;
+    text-decoration: solid;
 }
 
 a {
@@ -65,12 +58,14 @@ p {
     background-position: center;
 }
 .hero h2 {
-    background-color: aquamarine;
+    text-align-last: auto;
+    background-color: rgb(157, 226, 203);
+    background-size: auto;
     margin-right: 150px;
-    padding: 10px;
+    padding: 15px;
     color: rgb(5, 0, 0);
-    text-align: right;
-    margin-left: 1025px;
+    text-align: center;
+    margin-left: 1140px;
    
 }
 .float-left {
@@ -89,7 +84,7 @@ p {
     margin-left: 20px;
 }
 
-.benefits {
+.sidebar {
     margin-left: 25px;
     padding: 0px;
     clear: both;
@@ -97,71 +92,80 @@ p {
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    color: black;
 }
 
-.benefit-lead {
+.sidebar h1 {
     margin-bottom: 32px;
-    color: #ffffff;
+    color: #080808;
+    font-size: 400%;
+    text-align: end;
 }
 
-.benefit-lead h1 {
-    margin-bottom: 10px;
-    text-align: right;
-    font-size: 500%
-
+.About-Me p {
+    padding: 0px;
+    height: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0c0b0b;
+    font-size: 25px;
+    text-align: left;
 }
 
-.search-engine-optimization {
+.surf-report {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
-
-.online-reputation-management {
+.Lead-Wall {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
 
-.social-media-marketing {
+.Calculator {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
     color: #ffffff;
 }
 
-.search-engine-optimization img {
+.surf-report img {
+    padding: 40px;
     max-height: 200px;
+    transform: scale(5.5, 2.5);
+    float: right;
 }
 
-.online-reputation-management img {
+.Lead-Wall img {
+    padding: 40px;
     max-height: 200px;
+    transform: scale(5.5, 2.5);
+    float: right;
 }
 
-.social-media-marketing img {
+.Calculator img {
+    padding: 40px;
     max-height: 200px;
+    transform: scale(5.5, 2.5);
+    float: right;
 }
 
-.search-engine-optimization h2 {
+.surf-report h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+.Lead-Wall h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.social-media-marketing h2 {
+.Calculator h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
