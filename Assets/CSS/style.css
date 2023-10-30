@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    margin: 0;
+    margin: auto;
 }
 
 body {
@@ -8,6 +8,7 @@ body {
 }
 
 .header {
+    display: flex;
     padding: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -15,33 +16,20 @@ body {
 }
 
 .header h1 {
-    display: inline-flex;
     font-size: 35px;
     background-color: rgb(1, 52, 52);
     padding: 15px;
-    margin-left: auto;
+    margin-left: 0px;
 }
 
 .header div  {
     padding-top: 35px;
-    margin-right: 20px;
-    float: right;
     font-size: 20px;
 }
 
 .header div ul li {
     display: inline-flex;
-    margin-left: 25px;
-    text-decoration: solid;
-}
-
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
+    margin-left: 25px; 
 }
 
 .hero {
@@ -77,27 +65,21 @@ p {
     margin-left: 20px;
 }
 
-.sidebar {
-    margin-left: 25px;
-    padding: 0px;
-    clear: both;
-    float: left;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
+main {
+    display: flex;
+    flex-wrap: wrap;
 }
-
-.sidebar h1 {
-    margin-bottom: 32px;
-    color: #080808;
-    font-size: 400%;
+aside1 {
+    flex: 1;
+    padding: 20px;
     text-align: end;
+    font-size: 200%;
 }
 
-.About-Me p {
+section-ab {
+    flex: 3;
     padding: 0px;
-    height: 200px;
+    height: 120px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #0c0b0b;
     font-size: 25px;
