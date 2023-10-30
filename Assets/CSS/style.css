@@ -85,7 +85,7 @@ aside2 {
     border-right: 5px#0c0b0b;
 }
 
-.work img {
+.work.work {
     padding: 40px;
     max-height: 20px;
     transform: scale(1.0, .5);
@@ -96,12 +96,12 @@ aside2 {
     display: flex;
     font-size: 150%;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    float: left;
+    text-align: left;
 }
 
 .footer ul li {
     font-size: 30px;
     margin: 15px;
     display: inline-flex;
-    margin-left: 75%;
+    
 }    
