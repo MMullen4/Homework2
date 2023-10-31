@@ -59,37 +59,43 @@ body {
     padding: 20px;
     text-align: end;
     font-size: 150%;
-    margin-right: 3rem;
+    margin-right: 1rem;
     width: 20%;
     }
 
 #section-ab {
     flex: 3;
-    padding: 0px;
+    padding: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #0c0b0b;
     font-size: 25px;
     border-left: 5px black;
 }
 
-#aside2 {
+/* #aside2 {
     flex: 1;
     padding: 140px;
     font-size: 200%;
     border-right: 5px#0c0b0b;
     display: inline-flex;
     margin-left: 20px;
-}
+} */
 .Work {
     width: 75%;
 }
 .Work img {
-    padding: 40px;
+    padding: 10px;
     /* max-height: 20px; */
     max-width: 100%;
-    transform: scale(1.0, .5);
+    transform: scale(1.0);
     float: right;
 }
 .small_img {
-    width: 35%;
+    width: 50%;
+}
+
+ul {
+    display: inline-flex;
+    font-size: xx-large;
+   
 }
