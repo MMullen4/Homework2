@@ -84,7 +84,7 @@ body {
 .small_img {
     width: 50%;
 }
-.aside2 {
+#aside2 {
     border-right: 5px solid black;
     padding: 20px;
     text-align: end;
@@ -94,7 +94,7 @@ body {
 }
 
 #Contact-Me  {
-    display: inline-flex;
+    display: contents;
     font-size: xx-large;
    
 }
