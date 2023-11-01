@@ -63,7 +63,7 @@ body {
     width: 20%;
     }
 
-#section-ab {
+#about-me {
     flex: 3;
     padding: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -72,20 +72,11 @@ body {
     border-left: 5px black;
 }
 
-/* #aside2 {
-    flex: 1;
-    padding: 140px;
-    font-size: 200%;
-    border-right: 5px#0c0b0b;
-    display: inline-flex;
-    margin-left: 20px;
-} */
-.Work {
+#Work {
     width: 75%;
 }
-.Work img {
+#Work img {
     padding: 10px;
-    /* max-height: 20px; */
     max-width: 100%;
     transform: scale(1.0);
     float: right;
@@ -93,8 +84,16 @@ body {
 .small_img {
     width: 50%;
 }
+.aside2 {
+    border-right: 5px solid black;
+    padding: 20px;
+    text-align: end;
+    font-size: 150%;
+    margin-left: 1rem;
+    width: 20%;
+}
 
-ul {
+#Contact-Me  {
     display: inline-flex;
     font-size: xx-large;
    
