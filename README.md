@@ -9,7 +9,7 @@ https://www.linkedin.com/in/matthewmullen1/
 
 
 ## Visuals
-N/A
+Pics include some of my client's projects. 
 
 ## Installation
 N/A
