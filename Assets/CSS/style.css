@@ -34,6 +34,9 @@ body {
 }
 
 .cool {
+    display: flex;
+    justify-content: right;
+    
     height: 500px;
     margin-bottom: 25px;
     background-image: url("../images/img1.jpg");
@@ -41,15 +44,24 @@ body {
     background-position: center;
 }
 .cool h2 {
-    text-align-last: auto;
     background-color: rgb(157, 226, 203);
     padding: 15px;
     color: rgb(5, 0, 0);
-    text-align: right;
-    margin-right: 30px;
-    float: right;
+    align-self: flex-end;
+    margin: 0px;
 }
-    
+.Big_Dog {
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    bottom: 5rem;
+    left: 80%;
+    font-size: large;
+    padding: 1rem;
+}    
+.barking {
+    font-weight: normal;
+}
 .section-wrapper {
     display: flex;
     flex-wrap: wrap;
