@@ -1,5 +1,5 @@
 ## MMC PortfolioName
-Choose a self-explaining name for your project.
+MMC Print & Packaging Portfolio
 
 ## Description
 This site gives an overview of my business, projects, contact info and links to my social media and business website.
